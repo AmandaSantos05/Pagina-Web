@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Homem de Ferro | Loja</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Loja</li>
+                <li>Sobre</li>
+            </ul>
+        </nav>
+        <hr> <!-- linha de divisão -->
+        <h1>Homem de Ferro</h1>
+    </header>
+
+
+    <main>
+        <section>
+            <h2>Posters</h2>
+            <div>
+                <div>
+                    <strong>Poster 1</strong>
+                    <img src="images/poster1.png" alt="Poster 1">
+                    <div>
+                        <span>R$29,99</span>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <div>
+                    <strong>Poster 2</strong>
+                    <img src="images/poster2.png" alt="Poster 2">
+                    <div>
+                        <span>R$39,99</span>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <div>
+                    <strong>Poster 3</strong>
+                    <img src="images/poster3.png" alt="Poster 3">
+                    <div>
+                        <span>R$19,99</span>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <div>
+                    <strong>Poster 4</strong>
+                    <img src="images/poster4.png" alt="Poster 4">
+                    <div>
+                        <span>R$79,99</span>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Produtos</h2>
+            <div>
+                <div>
+                    <strong>Camiseta</strong>
+                    <img src="images/produto1.png" alt="Camiseta">
+                    <div>
+                        <span>R$39,90</span>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <div>
+                    <strong>Miniatura</strong>
+                    <img src="images/produto2.png" alt="Miniatura">
+                    <div>
+                        <span>R$69,90</span>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Carrinho</h2>
+
+            <table>
+                <thead> <!-- cabeçalho da tabela-->
+                    <tr> <!-- Linha da tabela-->
+                        <th>Item</th> <!-- Coluna do cabeçalho-->
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+
+                <tbody> <!-- Corpo da tabela-->
+                    <tr>
+                        <td> <!-- Coluna do corpo da tabela-->
+                            <img src="images/produto2.png" alt="Miniatura">
+                            <strong>Miniatura</strong>
+                        </td>
+                        <td>
+                            <span>R$69,90</span>
+                        </td>
+                        <td>
+                            <input type="number" value="2" min="0">
+                            <button type="button">Remover</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <!-- Coluna do corpo da tabela-->
+                            <img src="images/poster3.png" alt="poster3">
+                            <strong>Poster 3</strong>
+                        </td>
+                        <td>
+                            <span>R$19,99</span>
+                        </td>
+                        <td>
+                            <input type="number" value="1" min="0">
+                            <button type="button">Remover</button>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3"> <!-- Colspan: número de colunas que a coluna ocupa-->
+                            <strong>Total</strong>
+                            <span>R$89,89</span>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <button type="button">Finalizar compra</button>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Homem de Ferro</h3>
+        <ul>
+            <li>
+                <img src="images/icon-facebook.svg" alt="Facebook logo">
+            </li>
+            <li>
+                <img src="images/icon-spotify.svg" alt="Spotify logo">
+            </li>
+            <li>
+                <img src="images/icon-youtube.svg" alt="Youtube logo">
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
